@@ -1,0 +1,56 @@
+.socialcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-link img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover img {
+    transform: scale(1.1);
+}
+
+.social-link:hover {
+    animation: bounce 0.4s linear;
+}
+
+@keyframes bounce {
+    40% {
+        transform: scale(1.4);
+    }
+    60% {
+        transform: scale(0.8);
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.social-link1:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.social-link2:hover {
+    background-color: #00ccff;
+}
+
+.social-link3:hover {
+    background-color: #5865f2;
+}
+
+.social-link4:hover {
+    background-color: #12a50b;
+}
